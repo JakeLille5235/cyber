@@ -22,8 +22,8 @@ export default function Home() {
       <h1 className="text-3xl sm:text-5xl md:text-6xl animate-pulse max-w-lg mt-6 sm:mt-8">
         {">_ Jake Lille {CyberSec}"}
       </h1>
-      <p className="mt-4 text-green-300 text-base sm:text-lg max-w-md">
-        Exploring security, hacking, and digital defense.
+      <p className="mt-4 text-green-300 text-base sm:text-lg max-w-xs sm:max-w-md">
+        Exploring security, hacking, and <br className="block sm:hidden"/> digital defense.
       </p>
 
       {/* Navigation (Mobile Stacked, Desktop Inline) */}
