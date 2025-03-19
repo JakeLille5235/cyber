@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from 'next/image';
 
+
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black text-green-400 font-mono p-6 text-center">
@@ -56,6 +58,37 @@ export default function Home() {
           />
           <p className="mt-2 text-sm sm:text-base text-green-300 text-center">Google Cyber Certification</p>
         </div>
+      </div>
+
+      {/* Footer with Social Media Links */}
+      <div className="mt-8 flex space-x-6">
+        <a href="https://github.com/jakelille5235" target="_blank" rel="noopener noreferrer">
+          <Image 
+            src="/github.png" 
+            alt="GitHub"
+            width={40} 
+            height={40} 
+            className="transition-transform transform hover:scale-110 hover:opacity-100 opacity-50"
+          />
+        </a>
+        <a href="https://linkedin.com/in/jakelille" target="_blank" rel="noopener noreferrer">
+          <Image 
+            src="/linkedin.png" 
+            alt="LinkedIn"
+            width={40} 
+            height={40} 
+            className="transition-transform transform hover:scale-110 hover:opacity-100 opacity-50"
+          />
+        </a>
+        <a href="https://twitter.com/jakelille" target="_blank" rel="noopener noreferrer">
+          <Image 
+            src="/icons/twitter.png" 
+            alt="Twitter"
+            width={40} 
+            height={40} 
+            className="transition-transform transform hover:scale-110 hover:opacity-100 opacity-50"
+          />
+        </a>
       </div>
 
       {/* Footer */}
